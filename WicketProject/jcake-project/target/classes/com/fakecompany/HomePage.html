@@ -15,6 +15,10 @@
 				<h1>Apache Wicket</h1>
 			</div>
 		</div>
+		<wicket:link>
+	      <a href = "MyListExample.html">My List Example</a><br/>
+	    </wicket:link>
+		
 		<div id="bd">
 			<h2>Congratulations!</h2>
 			<p>
@@ -63,15 +67,5 @@
 		<div id="ft">
 		</div>
 		
-				
-		<!--Begin custom code-->
-		<form wicket:id="form">
-			<input type="text" wicket:id="thing"></input>
-			<input type="submit" wicket:id="addThing" value="Add"></input>
-			<ul wicket:id="listOfThings">
-				<li><span wicket:id="listThing"></span>&nbsp;&nbsp;<a wicket:id="removeLink">remove</a></li>
-			</ul>
-		</form>
-		<!--End custom code-->
 	</body>
 </html>

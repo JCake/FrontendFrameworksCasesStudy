@@ -1,0 +1,6 @@
+<input type="text" ng-model="thing"></input>
+<button ng-click="things.push(thing)">Add</button>
+
+<ul>
+	<li ng-repeat="item in things track by $index"><span>{{item}}</span>&nbsp;&nbsp;<a href="" ng-click="remove($index)">remove</a></li>
+</ul>

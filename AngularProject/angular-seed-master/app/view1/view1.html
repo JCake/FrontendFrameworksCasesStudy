@@ -1,0 +1,63 @@
+<h2>Tool Evaluation Questions with Wicket vs Angular Case Study</h2>
+<ul>
+	<li>
+		<h3 ng-click="topic1=!topic1">What kind of community support exists?</h3>
+		<div ng-show="topic1">
+			<h4>Stackoverflow post counts</h4>
+			<ul>
+				<li>Wicket:  2389</li>
+				<li>AngularJS:  51,877</li>
+			</ul>
+			<h4>Mailing lists</h4>
+			<p>Wicket:  <a href="http://wicket-users.markmail.org/">http://wicket-users.markmail.org/</a></p>
+		</div>
+	</li>
+	<li>
+		<h3 ng-click="topic2=!topic2">How easy is it to learn?</h3>
+		<div ng-show="topic2">
+			<a href="https://wicket.apache.org/start/quickstart.html">Wicket Quick Start</a>: Grow on top of <b>Java</b> with <b>maven</b> applying <b>Swing</b> knowledge.
+			<br/>
+			<a href="https://docs.angularjs.org/misc/started">Angular Quick Start</a>:  Grow on top of <b>Javascript</b> with <b>node</b>.
+			<h4>Google search for tutorials:</h4>
+			<ul>
+			<li>AngularJS tutorial: About 1,180,000 results</li>
+			<li>Wicket tutorial:  About 242,000 results</li>
+			</ul>
+		</div>
+	</li>
+	<li>
+		<h3 ng-click="topic3=!topic3">How easy is it to understand?</h3>
+		<div ng-show="topic3">
+			<h4>Multiple Layers</h4>
+			<p>Would you like to learn Wicket, the translation to javascript from Wicket, <b>and</b> javascript?</p>
+			<p>Similar issue with Hibernate</p>
+		</div>
+	</li>
+	<li>
+		<h3 ng-click="topic4=!topic4">Does it support the desired level of program complexity?</h3>
+		<div ng-show="topic4">
+			<h4>Basic or Complex?</h4>
+			<p>Maybe your current program is very simple, but...</p>
+		</div>
+	</li>
+	<li>
+		<h3 ng-click="topic5=!topic5">Does it supply the right level of “magic”?</h3>
+		<div ng-show="topic5">
+			<p>
+				<span ng-click="magic1=!magic1">Attempt to hide all the javascript?</span>  
+				<span ng-show="magic1" style="color:red">Too much magic.</span>
+			</p>
+			<p>
+				<span ng-click="magic3=!magic3">Let me define a variable in javascript and have it available in the HTML (two-way data binding)?</span>
+				<span ng-show="magic3" style="color:green">Good magic.</span></p>
+		</div>
+	</li>
+	<li>
+		<h3 ng-click="topic6=!topic6">How fun is it to use?</h3>
+		<div ng-show="topic6">
+			<h4>I have NEVER heard anyone describe Wicket as "fun"</h4>
+		</div>
+	</li>
+</ul>
+
+

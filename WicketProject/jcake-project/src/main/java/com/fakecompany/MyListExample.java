@@ -17,7 +17,7 @@ public class MyListExample extends HomePage {
 
 	public MyListExample(PageParameters parameters) {
 		super(parameters);
-		// TODO Add your page's components here:
+		
 		Form<String> form = new Form<String>("form");
 
 		final List<String> listData = new ArrayList<String>();
